@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Handyman</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Handyman Finder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Find a Handyman</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Leave a Review</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">How It Works</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container text-center">
+            <h1>Find Trusted Handymen in Your Area</h1>
+            <p>Search by location and service type to find top-rated professionals.</p>
+            <input type="text" class="search-bar" placeholder="Enter your city or zip code">
+            <button class="btn btn-primary">Search</button>
+        </div>
+    </header>
+
+    <!-- Top-Rated Handymen Section -->
+    <section class="container my-5">
+        <h2 class="text-center">Top-Rated Handymen</h2>
+        <div class="row">
+            <!-- Placeholder for Handyman Profiles -->
+            <div class="col-md-4">
+                <div class="profile-card">
+                    <img src="images/placeholder.jpg" alt="Handyman Photo">
+                    <h3>John Doe</h3>
+                    <p>⭐⭐⭐⭐⭐ (4.9) - Plumbing & Repairs</p>
+                    <button class="btn btn-outline-primary">View Profile</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="profile-card">
+                    <img src="images/placeholder.jpg" alt="Handyman Photo">
+                    <h3>Jane Smith</h3>
+                    <p>⭐⭐⭐⭐⭐ (4.8) - Electrical Work</p>
+                    <button class="btn btn-outline-primary">View Profile</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container text-center">
+            <h2>How It Works</h2>
+            <p>1. Search for a handyman in your area.<br>2. Check their ratings and reviews.<br>3. Contact and hire the best match for your needs.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light text-center py-3">
+        <p>© 2025 Handyman Finder | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

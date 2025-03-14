@@ -1,0 +1,6 @@
+/handyman-website/
+│── index.html         (Main webpage)
+│── styles.css         (CSS styling)
+│── scripts.js         (JavaScript logic)
+│── handymen.json      (Handyman data)
+│── images/            (Folder for profile images)
