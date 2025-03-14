@@ -3,30 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Handyman Finder</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Find a Handyman</title>
+    <link rel="stylesheet" href="css/styles.css">  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
 </head>
 <body>
-
-    <header>
-        <h1>Find a Top-Rated Handyman</h1>
-    </header>
-
-    <main>
-        <section id="handyman-list">
-            <div class="handyman-card">
-                <img src="images/handyman1.jpg" alt="John Doe">
-                <h3>John Doe</h3>
-                <p>⭐⭐⭐⭐⭐ (4.9) - Plumbing & Repairs</p>
+    <section class="container my-5">
+        <h2 class="text-center">Top-Rated Handymen</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-card">
+                    <img src="images/placeholder.jpg" alt="Handyman Photo"> <h3>John Doe</h3>
+                    <p>⭐⭐⭐⭐⭐ (4.9) - Plumbing & Repairs</p>
+                    <button class="btn btn-outline-primary">View Profile</button>
+                </div>
             </div>
-
-            <div class="handyman-card">
-                <img src="images/handyman2.jpg" alt="Jane Smith">
-                <h3>Jane Smith</h3>
-                <p>⭐⭐⭐⭐ (4.8) - Electrical Work</p>
             </div>
-        </section>
-    </main>
-
+    </section>
+    <script src="js/scripts.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
